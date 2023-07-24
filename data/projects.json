@@ -1,0 +1,32 @@
+{
+  "projects": {
+    "EduClient": {
+      "usedTechnologies": "Kotlin",
+      "shortDescription": "Convenient mobile client for edu.tatar.ru",
+      "longDescription": "EduClient is an app that allows users to view schedules, homework, and monitor their grades to calculate the required scores for a specific grade. Key features include a grade calculator, notifications for new grades, tracking homework progress, easy account switching, offline data viewing through caching, and access to the Electronic Education in Tatarstan (edu.tatar.ru).",
+      "buttons": {
+        "Download": "https://play.google.com/store/apps/details?id=ru.ndevelop.educlient&hl=en&gl=US"
+      },
+      "numberOfImages": 3
+    },
+    "Sueta": {
+      "usedTechnologies": "Flutter",
+      "shortDescription": "Mobile application that helps to gather people at an event",
+      "longDescription": "A cross-platform app for event organizers to publish invitations for events like exhibitions, parties, etc. Events will be displayed on a map as markers and in a list of all events. Event details can include attendee count, entry cost, and images. Users can respond to these invitations; organizers can view the responses and accept or decline them.",
+      "buttons": {
+        "Github": "https://github.com/nai1ka/SuetaFlutter"
+      },
+      "numberOfImages": 4
+    },
+
+    "ReUser": {
+      "usedTechnologies": "Kotlin",
+      "shortDescription": "Executing commands based on scanned read-only NFC tag",
+      "longDescription": "When scanning an NFC tag, the app allows the device to do specific actions. The application doesn't write data to the NFC tag but instead stores it in the memory. Therefore, write-protected tags (for example, bank cards) can be used.",
+      "buttons": {
+        "Github": "https://github.com/nai1ka/ReUser"
+      },
+      "numberOfImages": 4
+    }
+  }
+}

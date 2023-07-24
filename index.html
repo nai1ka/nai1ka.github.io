@@ -1,0 +1,34 @@
+<html>
+
+<head>
+  <base href="/">
+  <meta charset="UTF-8">
+  <title>Nail Minnemullin</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/Icon-192.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel = "stylesheet" href="/styles.css">
+  <script defer src="index.dart.js" type="application/javascript"></script>
+
+
+</head>
+
+<body>
+<div class="loading">
+  <span class="loader"><span class="loader-inner"></span></span>
+</div>
+
+<script src="main.dart.js" type="application/javascript"></script>
+<script>
+ window.addEventListener('flutter-first-frame', function () {
+   var el = document.getElementsByClassName('loading')[0];
+   el.remove();
+   el = document.getElementsByClassName('loader')[0];
+   el.remove();
+   document.getElementsByClassName('loader-inner')[0];
+   el.remove();
+ });
+</script>
+</body>
+
+</html>
