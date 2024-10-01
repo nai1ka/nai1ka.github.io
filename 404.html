@@ -1,0 +1,7 @@
+<script type="text/javascript">
+  var path = window.location.pathname;
+  if (!path.startsWith('/')) {
+    path = '/' + path;
+  }
+  window.location.replace('/#' + path);
+</script>
